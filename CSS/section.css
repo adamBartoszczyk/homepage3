@@ -1,0 +1,126 @@
+.section {
+    padding: 10px;
+    margin: 20px;
+}
+
+.section--hidden {
+    display: none;
+}
+
+.section--centered .section__paragraph {
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.section__header {
+    background-color: rgba(127, 128, 128, 0.099);
+    color: #818028;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.section__header--main {
+    background-color: white;
+    text-align: center;
+}
+
+.section__header--secondary {
+    margin-left: 15px;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 5px;
+    background-color: white;
+}
+
+.section__paragraph {
+    text-align: left;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000;
+    text-indent: 20px;
+    padding: 0 10px;
+}
+
+.section__text--highlighted {
+    color: #818028;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+}
+
+.section__button {
+    letter-spacing: 2px;
+    border-radius: 3px;
+    color: white;
+    border: #818028 2px solid;
+    padding: 2px 10px;
+    margin-left: 20px;
+    background-color: #81802830;
+}
+
+.section__button--active {
+    color: #818028;
+    border: white 2px solid;
+}
+
+.section__button--backToNav {
+    color: #818028;
+    letter-spacing: 5px;
+    border: #818028 1px solid;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 250px;
+    margin-top: 20px;
+}
+
+.aside {
+    max-width: 200px;
+    padding: 10px;
+    float: right;
+    background-color: rgba(211, 211, 211, 0.319);
+    padding-bottom: 0;
+}
+
+.aside__list {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+    margin-left: none;
+}
+
+.photo {
+    padding: 10px;
+    max-width: 250px;
+}
+
+.photo--small {
+    max-width: 200;
+}
+
+.photo--profil {
+    max-width: 300px;
+    box-shadow: 10px 15px 25px -7px rgba(129, 128, 40, 0.21);
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.photo--link {
+    max-width: 80px;
+    max-height: 8;
+    border: rgba(211, 211, 211, 0.319) solid 5px;
+}
+
+.photo--link:hover {
+    border: #818028 solid 5px;
+}

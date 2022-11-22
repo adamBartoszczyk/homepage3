@@ -1,0 +1,33 @@
+.table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.table__cell {
+    border: 1px #000 solid;
+    text-align: center;
+    padding: 15px;
+}
+
+.table__caption {
+    caption-side: bottom;
+    text-align: right;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #818028e0;
+}
+
+.table__header {
+    background-color: #818028e0;
+    color: white;
+    font-weight: normal;
+}
+
+.table__row:hover {
+    background-color: #ddd;
+}
+
+.table__container {
+    overflow: auto;
+}
