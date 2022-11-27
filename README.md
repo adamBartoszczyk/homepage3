@@ -1,4 +1,4 @@
 # Adam Bartoszczyk - moja strona
-![Adam](images/Zrzut ekranu .jpg)
+![Adam](images/zrzutEkranu.jpg)
 ## DEMO
 https://adambartoszczyk.github.io/homepage3/
