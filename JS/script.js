@@ -14,14 +14,14 @@
    }
 
    init = () => {
-      let aboutMeButton = document.querySelector(".js-aboutMeButton")
-      let aboutMe = document.querySelector(".js-aboutMe")
-      let climbButton = document.querySelector(".js-climbButton");
-      let climb = document.querySelector(".js-climb");
-      let travelButton = document.querySelector(".js-travelButton");
-      let travel = document.querySelector(".js-travel");
-      let jobButton = document.querySelector(".js-jobButton");
-      let job = document.querySelector(".js-job");
+      const aboutMeButton = document.querySelector(".js-aboutMeButton")
+      const aboutMe = document.querySelector(".js-aboutMe")
+      const climbButton = document.querySelector(".js-climbButton");
+      const climb = document.querySelector(".js-climb");
+      const travelButton = document.querySelector(".js-travelButton");
+      const travel = document.querySelector(".js-travel");
+      const jobButton = document.querySelector(".js-jobButton");
+      const job = document.querySelector(".js-job");
 
       onChangeClick(aboutMeButton, aboutMe);
       onChangeClick(climbButton, climb);
