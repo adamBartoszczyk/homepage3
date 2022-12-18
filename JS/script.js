@@ -7,7 +7,7 @@
       button.addEventListener("click", () => {
          section.classList.toggle("section--hidden");
          button.classList.toggle("section__button--active");
-         button.innerText = section.classList.contains("section--hidden")
+         button.innerText = section.classList.contains("section--hidden]")
             ? "Pokaż" : "Ukryj";
       });
 
