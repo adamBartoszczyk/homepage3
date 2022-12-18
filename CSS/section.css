@@ -105,11 +105,15 @@
     text-align: left;
     padding-left: 0;
     margin-left: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .section__tableContainer {
     overflow: auto;
 }
+
 .photo {
     padding: 10px;
     max-width: 250px;
@@ -127,8 +131,7 @@
 }
 
 .photo--link {
-    max-width: 80px;
-    max-height: 8;
+   max-width: 150px;
     border: rgba(211, 211, 211, 0.319) solid 5px;
 }
 
