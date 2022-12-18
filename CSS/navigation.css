@@ -10,11 +10,9 @@
 
 .navigation__list {
     list-style: none;
-}
-
-.navigation__item {
-    display: inline-block;
-    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .navigation__link {
