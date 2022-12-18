@@ -56,7 +56,7 @@
     padding: 0 10px;
 }
 
-.section__text--highlighted {
+.section__highlightedText {
     color: #818028;
     font-style: italic;
     font-weight: bold;
@@ -107,6 +107,9 @@
     margin-left: none;
 }
 
+.section__tableContainer {
+    overflow: auto;
+}
 .photo {
     padding: 10px;
     max-width: 250px;
