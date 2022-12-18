@@ -13,7 +13,7 @@ You can find four main sections:
 - traveling
 - my job
 
-## technologies in project:
+## Technologies in project:
 - HTML
 - CSS
 - JS
