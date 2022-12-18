@@ -40,17 +40,17 @@
         </li>
       </ul>
     </nav>
-   
+
     <header class="section">
 
       <h1 class="section__header section__header--main">Moja pierwsza strona internetowa</h1>
     </header>
 
     <main>
-
-
       <section class="section section--centered">
-        <h2 class="section__header"> O mnie <button class="js-aboutMeButton section__button">Ukryj</button></h2>
+        <div class="section__container">
+          <h2 class="section__header"> O mnie </h2><button class="js-aboutMeButton section__button">Ukryj</button>
+        </div>
         <div class="js-aboutMe" id="o-mnie">
           <p class="section__paragraph">Cześć, nazywam się <b class="section__text--highlighted">Adam.</b></p>
           <p class="section__paragraph">Zapraszam Was do obejrzenia mojej pierwszej strony internetowej.
@@ -73,9 +73,11 @@
       </section>
 
       <section class="section">
-        <h2 class="section__header" id="wspinaczka"> Wspinaczka <button
+        <div class="section__container">
+          <h2 class="section__header" id="wspinaczka"> Wspinaczka </h2><button
             class="js-climbButton section__button">Ukryj</button>
-        </h2>
+        </div>
+
         <div class="js-climb">
           <h3 class="section__header section__header--secondary"> Outdoor </h3>
           <p class="section__paragraph"> Wspinaczka skałkowa jest moją ulubioną formą wspinaczki oraz formą
@@ -122,8 +124,10 @@
       </section>
 
       <section class="section">
-        <h2 class="section__header" id="podroze"> Podróże <button class="js-travelButton section__button">Ukryj</button>
-        </h2>
+        <div class="section__container">
+          <h2 class="section__header" id="podroze"> Podróże </h2><button
+            class="js-travelButton section__button">Ukryj</button>
+        </div>
         <div class="js-travel">
           <h3 class="section__header section__header--secondary"> Bliższe </h3>
           <p class="section__paragraph"> Do bliższych podróży zaliczam jednodniowe wyjazdy po okolicznych
@@ -209,7 +213,9 @@
       </section>
 
       <section class="section">
-        <h2 class="section__header" id="praca"> Praca <button class="js-jobButton section__button">Ukryj</button></h2>
+        <div class="section__container">
+          <h2 class="section__header" id="praca"> Praca </h2><button class="js-jobButton section__button">Ukryj</button>
+        </div>
         <div class="js-job">
           <h3 class="section__header section__header--secondary"> Aktualnie </h3>
           <p class="section__paragraph">Prowadzę własną działalność w branży Medycznej czyli jestem szefem i
@@ -234,8 +240,7 @@
             przyszłości<em class="section__text--highlighted">-
               Trzymajcie
               za mnie kciuki!!!</em></p>
-          <p class="section__paragraph"><img class="photo" src="images/work1.jpg"
-              alt="Moja praca w przyszłości">
+          <p class="section__paragraph"><img class="photo" src="images/work1.jpg" alt="Moja praca w przyszłości">
             <img class="photo" src="images/work2.jpg" alt="Moja praca w przyszłości">
           </p>
           <p class="section__paragraph">

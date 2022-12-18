@@ -7,6 +7,13 @@
     display: none;
 }
 
+.section__container {
+    background-color: rgba(127, 128, 128, 0.099);
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+}
+
 .section--centered .section__paragraph {
     text-align: center;
     letter-spacing: 2px;
@@ -16,13 +23,13 @@
 }
 
 .section__header {
-    background-color: rgba(127, 128, 128, 0.099);
     color: #818028;
     margin-top: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
     text-align: left;
+    align-self: center;
 }
 
 .section__header--main {
@@ -58,6 +65,7 @@
 }
 
 .section__button {
+    align-self: center;
     letter-spacing: 2px;
     border-radius: 3px;
     color: white;
