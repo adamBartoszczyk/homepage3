@@ -1,6 +1,6 @@
 .section {
     padding: 10px;
-    margin: 20px;
+    margin: 2%;
 }
 
 .section--hidden {
@@ -18,7 +18,7 @@
     text-align: center;
     letter-spacing: 2px;
     padding-bottom: 20px;
-    margin: 20px;
+    margin: 5%;
     color: rgb(0, 0, 0);
 }
 

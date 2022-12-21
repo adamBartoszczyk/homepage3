@@ -1,7 +1,7 @@
 .navigation {
     background-color: #8180288f;
     color: white;
-    padding: 2px;
+    padding: 10px;
     text-align: center;
     width: 100%;
     font-size: 20px;
@@ -13,13 +13,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .navigation__link {
-    padding: 10px;
+    padding: 3px;
     color: white;
     text-decoration: none;
     border: #8180288f 1px solid;
+    margin: 40px;
+    margin-bottom: 20px;
 }
 
 .navigation__link:focus {

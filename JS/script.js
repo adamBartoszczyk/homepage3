@@ -2,7 +2,7 @@
    welcome = () => {
       console.log("Cześć miło mi że to widzisz! ;) ");
    }
-   
+
    const onChangeClick = (button, section) => {
       button.addEventListener("click", () => {
          section.classList.toggle("section--hidden");
@@ -10,7 +10,6 @@
          button.innerText = section.classList.contains("section--hidden")
             ? "Pokaż" : "Ukryj";
       });
-
    }
 
    init = () => {
@@ -30,6 +29,5 @@
 
       welcome();
    }
-   
    init();
 }
